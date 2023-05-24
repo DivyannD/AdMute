@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AdMute</string>
+    <string name="tile_mute">Mute ads</string>
+
+    <string name="mute_info_background">Allow AdMute to run in the background by disabling battery optimizations</string>
+    <string name="mute_info_dkma">Click to see how to disable battery optimizations on %1s phones.</string>
+    <string name="mute_info_skip_startup">Ads playing after you skip a track or ads on Spotify startup cannot be muted.</string>
+    <string name="mute_info_not_updating">If you don\'t disable ALL battery optimizations, SpotMute will eventually be killed by your system and can\'t mute your phone.</string>
+
+    <string name="ads_muted">Ads muted</string>
+    <string name="mute_info_ad_counter">%1$d</string>
+    <string name="status_enabled">Muting ads</string>
+    <string name="status_disabled">Ads are playing</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Ad muting service</string>
+    <string name="notif_channel_description">This is the visible notification when ad muting is turned on.</string>
+    <string name="notif_action_title_stop">Stop</string>
+    <string name="notif_action_title_mute">Mute</string>
+    <string name="notif_action_title_unmute">Unmute</string>
+    <string name="notif_content_muting">Currently muting ad!</string>
+    <string name="notif_content_listening">Ads muted this session: %1$d</string>
+    <string name="notif_last_detected_song_time">Last song: %1$s (%2$s)</string>
+    <string name="notif_error_detecting_ads">Error, cannot detect ads!</string>
+    <string name="notif_error_broadcast">Enable \'%1$s\' in Spotify!</string>
+
+    <!-- Dialog -->
+    <string name="dialog_broadcast_title">Enable %1$s</string>
+    <string name="dialog_broadcast_message">AdMute needs \'%1$s\' enabled in
+        Spotify to work. Go to Spotify settings and enable it. Note that this message will continue to show until SpotMute has been able to detect a song (you might have to start playing one).</string>
+    <string name="dialog_broadcast_positive_settings">Open Spotify Settings</string>
+    <string name="dialog_broadcast_positive">Open Spotify</string>
+    <string name="dialog_broadcast_negative">I have enabled it!</string>
+
+    <string name="dialog_package_title">Spotify not installed</string>
+    <string name="dialog_package_message">Spotify is required for this app to work.</string>
+    <string name="dialog_package_negative">Exit</string>
+
+    <string name="dialog_lite_title">Spotify Lite not supported!</string>
+    <string name="dialog_lite_message">Ad detection is unfortunately not possible in Spotify Lite. Please use the full Spotify app.\n\nThis app will exit!</string>
+    <string name="dialog_lite_negative">Exit</string>
+
+    <string name="dialog_delay_unmute_title">Unmute delay</string>
+    <string name="settings_unmute_summary">Adjust the unmute delay time. Increase the value in case you regularly hear the last part of ads. Default 800 ms.</string>
+    <string name="dialog_delay_unmute_negative">Cancel</string>
+    <string name="dialog_delay_unmute_positive">Set delay</string>
+
+    <string name="dialog_delay_mute_title">Mute delay (Advanced)</string>
+    <string name="settings_mute_summary">Adjust the mute delay time. Decrease the value in case you regularly hear the beginning of ads. Default 100 ms.</string>
+    <string name="dialog_delay_mute_negative">Cancel</string>
+    <string name="dialog_delay_mute_positive">Set delay</string>
+
+    <!-- Menu -->
+    <string name="settings_unmute">Unmute delay</string>
+    <string name="settings_mute">Mute delay</string>
+    <string name="menu_dkma">dontkillmyapp.com</string>
+
+    <!-- Widget -->
+    <string name="widget_content_description">Mute widget</string>
+    <string name="launch_spotify">Auto-launch Spotify</string>
+    <string name="settings_launch_spotify">Launch Spotify directly when SpotMute is opened.</string>
+    <string name="toast_counter">:)</string>
+    <string name="menu_rate">Rate</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="settings">Settings</string>
+    <string name="launch_spotify_key">launch_spotify</string>
+    <string name="settings_unmute_key">unmute_delay_v3</string>
+    <string name="settings_mute_key">mute_delay_v3</string>
+    <string name="settings_use_lowest_volume_key">lowest_volume</string>
+    <string name="settings_doki_key">doki_key</string>
+    <string name="settings_use_lowest_volume_title">DON\'T SHOUT!</string>
+    <string name="settings_use_lowest_volume_summary">Instead of muting ads, silence them on the lowest volume level.</string>
+    <string name="toast_service_could_not_start_error">Could not start service, please try again!</string>
+    <string name="settings_doki_title">dontkillmyapp.com</string>
+    <string name="settings_doki_summary">Open dontkillmyapp.com to read more about battery optimizations.</string>
+
+    <string name="settings_broadcast_status_title">Device Broadcast Status</string>
+</resources>
